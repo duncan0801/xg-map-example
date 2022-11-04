@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.pitch {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.shot-area {
+  border: 1px solid black;
+  padding: 1rem;
+}
+.shot-area > * {
+  padding: 2rem;
+  border: 1px solid green;
+}
+.shot-area:hover {
+  cursor: pointer;
+}
